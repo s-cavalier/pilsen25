@@ -1,11 +1,12 @@
-import NeuralNetworkEditor from "@/components/NeuralNetEdit";
+import Landing from "@/components/Landing";
+
 
 
 export default function Home() {
 
   return (
     <>
-      <NeuralNetworkEditor backendEndpoint="__test__" />
+      <Landing/>
     </>
   );
 }
