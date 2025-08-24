@@ -137,6 +137,7 @@ export default function TeamPicker({
                 </FormHelperText>
               )}
             </FormControl>
+            
 
             <Box sx={{ display: "flex", justifyContent: "center" }}>
               <Button
@@ -179,6 +180,8 @@ export default function TeamPicker({
               </Typography>
             )}
           </Box>
+          <Typography>Disclaimer: Picking teams in different age/gender groups may give weird results.</Typography>
+          <Typography>The AI model below was trained based on NBA teams, so it was presumed teams are somewhat even.</Typography>
         </Box>
       </CardContent>
       <CardActions sx={{ justifyContent: "flex-end" }}>

@@ -84,6 +84,7 @@ export default function PredictedWinnerCard({ teams, teamId, sx, className }: Pr
             {team.name}
           </Typography>
         </Box>
+        
       </CardContent>
     </Card>
   );
